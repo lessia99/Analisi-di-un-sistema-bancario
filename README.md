@@ -17,17 +17,17 @@ Lo scopo del progetto è creare una tabella denormalizzata usando MySql che cont
 
 Combinando le diverse tabelle all'interno del database 'db_bancario', ho generato ulteriori tabelle che saranno utilizzate per costruire la tabella denormalizzata finale. In particolare:
 
--*eta*: eta del cliente
--*tab_trans_uscita*: numero di transazioni in uscita su tutti i conti
--*tab_trans_entrata*: numero di transazioni in entrata su tutti i conti
--*imp_trans_uscita*: importo transato in uscita su tutti i conti
--*imp_trans_entrata*: importo transato in entrata su tutti i conti
--*num_tot_conti*: numero totale di conti posseduti
--*tipo_conti*: numero di conti posseduti per tipologia
--*num_trans_exit*: numero di transazioni in uscita per tipologia
--*num_trans_entrata*: numero di transazioni in entrata per tipologia
--*imp_uscita*: importo transato in uscita per tipologia di conto
--*imp_entrata*: importo transato in  entrata per tipologia di conto
+- *eta*: eta del cliente
+- *tab_trans_uscita*: numero di transazioni in uscita su tutti i conti
+- *tab_trans_entrata*: numero di transazioni in entrata su tutti i conti
+- *imp_trans_uscita*: importo transato in uscita su tutti i conti
+- *imp_trans_entrata*: importo transato in entrata su tutti i conti
+- *num_tot_conti*: numero totale di conti posseduti
+- *tipo_conti*: numero di conti posseduti per tipologia
+- *num_trans_exit*: numero di transazioni in uscita per tipologia
+- *num_trans_entrata*: numero di transazioni in entrata per tipologia
+- *imp_uscita*: importo transato in uscita per tipologia di conto
+- *imp_entrata*: importo transato in  entrata per tipologia di conto
 
 ## Requisiti e utilizzo
 - MySql Workbench installato
